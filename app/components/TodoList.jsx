@@ -62,8 +62,8 @@ const TodoList = ({ todo, deleteTodo, editTodo }) => {
 
       {/* Modal */}
       {isModalOpen && (
-        <dialog open className="modal">
-          <div className="modal-box">
+        <dialog open className="modal fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+          <div className="modal-box ">
             {/* Close button */}
             <button
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
